@@ -38,7 +38,7 @@ function MealsOverviewScreen({ route, navigation }) {
         data={displayedMeals}
         keyExtractor={(item) => item.id}
         renderItem={renderMealItem}
-      ></FlatList>
+      />
     </View>
   );
 }
